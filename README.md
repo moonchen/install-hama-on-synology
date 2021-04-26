@@ -8,7 +8,7 @@ cd /tmp
 ln -s /volume1/Plex/Library/Application Support/Plex Media Server/ pms
 mkdir -p 'pms/Scanners/Series'
 wget -O 'pms/Scanners/Series/Absolute Series Scanner.py' https://raw.githubusercontent.com/ZeroQI/Absolute-Series-Scanner/master/Scanners/Series/Absolute%20Series%20Scanner.py
-chown -R plex:plex 'pms/Scanners'
+chown -R plex:users 'pms/Scanners'
 chmod 775 -R 'pms/Scanners'
 
 wget -O 'pms/Plug-ins/master.zip' https://github.com/ZeroQI/Hama.bundle/archive/master.zip
